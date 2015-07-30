@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Creativestyle_ConfigAdminValues>
+            <version>0.1.0</version>
+        </Creativestyle_ConfigAdminValues>
+    </modules>
+    <global>
+        <helpers>
+            <creativestyle_configadminvalues>
+                <class>Creativestyle_ConfigAdminValues_Helper</class>
+            </creativestyle_configadminvalues>
+        </helpers>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <creativestyle_configadminvalues>
+                    <file>creativestyle_configadminvalues.xml</file>
+                </creativestyle_configadminvalues>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <creativestyle_configadminvalues>
+                    <files>
+                        <default>Creativestyle_ConfigAdminValues.csv</default>
+                    </files>
+                </creativestyle_configadminvalues>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>
